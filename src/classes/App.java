@@ -41,7 +41,15 @@ public class App {
 		total = contap_cpf1.getSaldo() + contap_cpf2.getSaldo() + contae_cpf1.getSaldo() + contae_cpf2.getSaldo() + contap_pj1.getSaldo() + contae_pj2.getSaldo();
 		
 		//System.out.println("Saldo total das contas:" + total);
-		System.out.println(Conta.getTotal());
+		System.out.println("Saldo total das contas:" + Conta.getTotal());
+		
+		System.out.println("Relatorio geral:");
+		System.out.println(contap_cpf1.toString());
+		System.out.println(contap_cpf2.toString());
+		System.out.println(contae_cpf1.toString());
+		System.out.println(contae_cpf2.toString());
+		System.out.println(contap_pj1.toString());
+		System.out.println(contae_pj2.toString());
 		
 	}
 
